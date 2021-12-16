@@ -24,7 +24,7 @@ return(
         <div className='form-group submit'>
             <h3>Add User Here</h3>
 
-            <button disabled={disabled}>Submit</button>
+            <button id='submit' disabled={disabled}>Submit</button>
 
             <div className='errors'>
                 <div>{errors.first_name}</div>
